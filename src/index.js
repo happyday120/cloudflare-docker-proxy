@@ -17,7 +17,7 @@ const routes = {
   "ecr.cloudflare-docker-proxy-4u8.pages.dev": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker-staging.cloudflare-docker-proxy-4u8.pages.dev": dockerHub,
 };
 
 function routeByHosts(host) {
